@@ -398,80 +398,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover
 }
-.landing-con-override {
-	position: absolute !important;
-	height: 100% !important;
-	min-height: 100% !important;
-}
-.landing-con-search {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height: 140px;
-	background: rgb(249, 249, 249);
-}
-.landing-con-adsense {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height: 140px;
-	background: rgb(247, 247, 247);
 
-}
-.landing-con-content {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 700px;
-	min-height: 600px;
-	max-height: 1080px;
-	background: linear-gradient(-135deg, rgb(0, 42, 135) 25%, rgb(147, 64, 255) 100%);
-}
-.landing-con-patreon {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 700px;
-	min-height: 600px;
-	max-height: 938px;
-	background: rgb(255, 255, 255);
-}
-.landing-con-contribute {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 700px;
-	min-height: 600px;
-	max-height: 938px;
-	background: rgb(255, 255, 255);
-}
-.landing-con-discord {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 700px;
-	min-height: 600px;
-	max-height: 938px;
-	background: rgb(114, 137, 218);
-}
-.landing-con-container-invert {
-	color: rgb(69, 89, 113) !important;
-}
-.landing-con-left {
-	position: absolute;
-	left: 0px;
-	width: 47%;
-	height: 100%;
-}
-.landing-con-right {
-	position: absolute;
-	right: 0px;
-	width: 47%;
-	height: 100%;
-	animation-name: fadeInLeft;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-}
 .landing-con-container {
 	position: absolute;
 	z-index: 2;
@@ -530,13 +457,6 @@ font-family: Roboto-Regular;
 	height: 64px;
 	margin-bottom: 18px;
 	background: url("img/icons/menu/logo.png") left center / 64px no-repeat;
-}
-
-.landing-img-hero {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: block;
 }
 
 .landing-tx1-heading {
@@ -731,23 +651,6 @@ img {vertical-align: middle;}
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-.button-left {
-	float: left;
-	width: 48% !important;
-}
-.button-right {
-	float: right;
-	width: 48% !important;
-}
-.label-left {
-	float: left;
-	width: 48%;
-}
-.label-right {
-	float: right;
-	width: 48%;
-}
-
 .footer-con-container {
   height: 80px;
   margin-top: -80px;
@@ -837,7 +740,6 @@ img {vertical-align: middle;}
 .footer-tx2-bound a:hover {
 	text-decoration: underline;
 }
-
 .main-screen {
 	min-height: 890px;
 	padding: 25px 0 70px;
@@ -876,91 +778,4 @@ img {vertical-align: middle;}
 .footer-table-out tr td {
 	position: relative;
 	height: 100%;
-}
-.footer-table-in {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: 100%;
-	height: 100%;
-}
-.button-disabled {
-	pointer-events: none;
-	opacity: 0.5;
-}
-.button-enabled {
-	border-radius: 12px;
-	background: linear-gradient(-135deg, rgb(73, 164, 255) 25%, rgb(0, 116, 231) 100%);
-	cursor: pointer;
-	color: rgb(255, 255, 255);
-	box-shadow: rgba(0, 116, 231, 0.2) 10px 10px 32px 0px;
-	border: 2px solid rgb(0, 128, 255) !important;
-}
-.button-enabled:hover {
-	border: 2px solid rgb(128, 191, 255) !important;
-}
-.markdown {
-	padding-bottom: 15px;
-	box-sizing: border-box !important;
-	margin-bottom: 20px !important;
-	padding-top: 0px !important;
-	padding-right: 15px !important;
-	padding-left: 15px !important;
-}
-.markdown a {
-	color: rgb(0, 116, 231);
-}
-.markdown a:hover {
-	text-decoration: underline;
-}
-.markdown {
-	font-family: Roboto-Regular;
-	font-size: 16px;
-}
-.markdown h2 {
-	font-family: Roboto-Bold;
-	font-size: 24px;
-	line-height: 26px;
-	margin-top: 22px;
-	margin-bottom: 26px;
-	padding-bottom: 30px;
-	text-align: left;
-	text-transform: capitalize;
-	color: rgb(0, 0, 0);
-	border-bottom: 1px solid rgb(234, 234, 234);
-}
-.markdown p:first-child {
-	font-family: Roboto-Regular;
-	font-size: 14px;
-	display: block;
-	margin-top: 30px;
-}
-.markdown ul {
-	font-family: Roboto-Regular;
-	font-size: 14px;
-	line-height: 35px;
-	padding-left: 45px;
-}
-.entry-content ul li {
-	font-family: inherit;
-	font-weight: inherit;
-	margin-left: 36px;
-	text-align: inherit;
-	color: rgb(69, 89, 113);
-	font-size: 14px !important;
-	line-height: 24px !important;
-}
-.image-container {
-	text-align: center;
-	margin-bottom: 20px;
-}
-.anchor-point {
-	position: absolute;
-	top: -82px;
-	height: 1px;
-}
-.anchor-select {
-	width: 16px;
-	height: 16px;
-	display: none !important;
 }
